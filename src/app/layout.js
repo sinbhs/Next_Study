@@ -4,7 +4,6 @@ import Link from 'next/link';
 import "./globals.css";
 import { Control } from './Control';
 import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
-import {bgBlue} from "next/dist/lib/picocolors";
 // import {useEffect, useState} from "react";
 
 export const metadata = {

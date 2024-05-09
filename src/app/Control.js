@@ -21,10 +21,10 @@ export function Control() {
 					const options = {method: 'DELETE'}
 					fetch('http://localhost:9999/topics/' + id, options)
 						.then(resp => resp.json())
-						.then((result => {
+						.then(() => {
 							router.push('/');
 							router.refresh();
-					}));
+					});
 				}} /></li>
 			</> : null}
 
